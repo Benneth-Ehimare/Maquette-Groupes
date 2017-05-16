@@ -57,7 +57,7 @@ h5{
 .glyphicon,.glyphicon-align-justify, a{
   color:white;
 }
-.btn{
+.sign-up{
   position:relative;
   border:solid 2px;
   border-color:#ffffff;
@@ -71,7 +71,7 @@ h5{
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
-.btn::after{
+.sign-up::after{
   content:"";
   position:absolute;
   vertical-align:middle;
@@ -81,9 +81,9 @@ h5{
   top:38%;
   width:80px;
   height:40px;
-  margin-left: 10px;
+  margin-left: 60px;
 }
-.btn:hover::after{
+.sign-up:hover::after{
   content:"";
   position:absolute;
   vertical-align: middle;
@@ -93,8 +93,9 @@ h5{
   top:38%;
   width:80px;
   height:40px;
+  margin-left: 60px;
 }
-.btn:hover {
+.sign-up:hover {
   color: #9bf1ff;
   background-color: #292f49;
   border-color: #9bf1ff;
