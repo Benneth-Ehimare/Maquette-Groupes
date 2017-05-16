@@ -84,14 +84,14 @@
 }
 footer {
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-color: #242943;
   text-align: center;
   padding-top: 80px;
 }
 
 #facebook,#in,#twitter,#git,#insta {
-  color: black;
+  color: #2a2f4a ;
   background-color: white;
   border-radius: 100%;
   font-size: 25px;
