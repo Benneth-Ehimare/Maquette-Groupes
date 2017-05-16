@@ -1,0 +1,74 @@
+/***************************
+        VOTRE CSS
+****************************/
+
+.portfolio *{
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.portfolio{
+    color: white;
+}
+.portfolio p{
+    font-variant: all-petite-caps;
+}
+.portfolio hr{
+    width: 200px;
+    margin-left: 0;
+    border: 1px solid white;
+}
+.portfolio .row>div {
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolio .row div div{
+    padding: 9vw 0 9vw 3vw;
+}
+
+#img1{
+    background-image:  url("./images/pic01.jpg");
+}
+#img2{
+    background-image: url("./images/pic02.jpg");
+}
+#img3{
+    background-image: url("./images/pic03.jpg");
+}
+#img4{
+    background-image: url("./images/pic04.jpg");
+}
+#img5{
+    background-image: url("./images/pic05.jpg");
+}
+#img6{
+    background-image: url("./images/pic06.jpg");
+}
+
+.bg1 {
+    background-color: rgba(155,241,255, 0.9)  ;
+}
+.bg2 {
+    background-color: rgba(141,130 ,196 , 0.9);
+}
+.bg3 {
+    background-color: rgba(236,141 ,129 , 0.9);
+}
+.bg4 {
+    background-color: rgba(231,183 ,136 , 0.9);
+}
+.bg5 {
+    background-color: rgba(142,169 ,232 , 0.9);
+}
+.bg6 {
+    background-color: rgba(135, 197, 164, 0.9);
+}
+.bg{
+    transition: background-color .5s ease-out;
+}
+.bg:hover{
+    background-color: rgba(0,0,0,0.2);
+
+}
