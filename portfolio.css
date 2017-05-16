@@ -9,6 +9,8 @@
 }
 .portfolio{
     color: white;
+    background-color: transparent
+    padding: 0;
 }
 .portfolio p{
     font-variant: all-petite-caps;
@@ -25,7 +27,7 @@
     background-position: center;
 }
 .portfolio .row div div{
-    padding: 9vw 0 9vw 3vw;
+    padding: 9vw 0 9vw 3em;
 }
 
 #img1{
