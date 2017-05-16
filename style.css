@@ -1,0 +1,55 @@
+
+* {
+
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.row {
+	background-color: #242943 ;
+}
+
+.cl1 {
+	border: 1px solid white;
+	border-bottom: none; 
+	padding: 2vw 0vw 2vw 1vw ;
+	color: #ffffff ;
+	
+}
+
+.form-control {
+
+	background-color: #2B304A ; 
+	border:none;
+}
+
+#mail-top {
+
+	border-top: none; 
+}
+
+a {
+
+	text-decoration: none;
+	color: #ffffff; 
+}
+
+label {
+
+	letter-spacing: 2px; 
+	color: #ffffff ;
+}
+
+.glyphicon {
+
+color: #242943;
+background-color: #ffffff ; 
+border-radius: 90%; 
+padding: 4px; 
+
+} 
+
+p {
+
+	font-weight: lighter;
+	margin-left: 3vw; 
+}
