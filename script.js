@@ -3,9 +3,15 @@
  */
 $(document).ready(function () {
 
+    // Hover portfolio
     $('.portfolio div div div').hover(function () {
         $(this).css("background-color", "rgba(0,0,0,0.2)");
     });
 
-
+    // Apparition menu
+    $(".croix").click(function() {
+        $(".bbjcontainer").animate({
+            opacity: '0'
+        });
+    });
 });
