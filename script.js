@@ -11,7 +11,5 @@
         $(".bbjcontainer").css({display: 'none'});
       });
 });
-
-});
    
     
