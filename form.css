@@ -1,0 +1,62 @@
+.formulaire {
+    background-color: #242943 ;
+}
+.formulaire .cl1 {
+    border: 1px solid #242943;
+    border-bottom: none;
+    padding: 2vw 0vw 2vw 30px ;
+    color: #ffffff ;
+}
+.formulaire .form-control {
+    background-color: #2B304A ;
+    border:none;
+}
+.formulaire #mail-top {
+    border-top: none;
+}
+.formulaire a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.formulaire label {
+
+    letter-spacing: 2px;
+    color: #ffffff ;
+}
+.formulaire .glyphicon {
+    color: #242943;
+    background-color: #ffffff ;
+    border-radius: 90%;
+    padding: 4px;
+}
+.formulaire .content{
+    margin: 0;
+}
+.formulaire span {
+    margin-right: 20px;
+}
+.formulaire p{
+    padding-left: 60px;
+}
+.formulaire form{
+    font-size: 12px;
+    padding: 4vw 2vw 0vw 10vw;
+}
+.formulaire .btn{
+    margin-top: 1.5vw;
+    border-radius: 0;
+    letter-spacing: 2px;
+    border: 2px solid #ffffff;
+    font-size: 12px;
+}
+.formulaire .btn1{
+    color: #242943;
+}
+.formulaire .btn2{
+    margin-left: 1vw;
+    color: #ffffff ;
+    background-color: #242943;
+}
+.formulaire .form-group{
+    padding-top: 1vw;
+}

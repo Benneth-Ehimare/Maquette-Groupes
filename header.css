@@ -1,0 +1,127 @@
+/**************************
+       ---HEADER---
+**************************/
+header{
+  background-color:#292f49;
+  border:solid;
+}
+/*** ---First part of the brand highlighted--- ***/
+#header .light{
+  color:#292f49;
+  background-color:#ffffff;
+  padding:5px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+/*** ---Second part of the brand--- ***/
+#header span.simplon{
+  color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+/*** ---Navigation bar--- ***/
+#header nav{
+  background-color: #292f49;
+}
+/*** ---Title--- ***/
+#header h1{
+  margin-top: 120px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+#header hr{
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 2px;
+}
+/*** ---Paragraph on top--- ***/
+#header h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 10px;
+}
+/*** ---Jumbotron properties--- ***/
+#header .jumbotron, .container h1{
+  background-color:#292f49;
+  color: #ffffff;
+  width:70%;
+  font-size: 40px;
+}
+#header .jumbo-left{
+  width:50%;
+}
+#header .jumbo-right{
+  width:50%;
+}
+/*** ---Menu button properties--- ***/
+#header .glyphicon,.glyphicon-align-justify, a{
+  color:white;
+}
+#header .nav,.navbar-nav li a:hover{
+  background-color: #292f49;
+  color: #9bf1ff;
+}
+#header nav li a:hover .glyphicon{
+  color: #9bf1ff;
+}
+/*** ---Sign up button properties--- ***/
+#header .sign-up{
+  position:relative;
+  border:solid 2px;
+  border-color:#ffffff;
+  border-radius: 0;
+  background-color: #292f49;
+  padding-right: 45px;
+  Height:45px;
+  width:180px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color:#ffffff;
+}
+#header .sign-up::after{
+  content:"";
+  position:absolute;
+  vertical-align:middle;
+  background-image: url("images/arrow.png");
+  background-repeat:no-repeat;
+  background-size: 30%;
+  top:38%;
+  width:80px;
+  height:40px;
+  margin-left: 15px;
+}
+#header .sign-up:hover::after{
+  content:"";
+  position:absolute;
+  vertical-align: middle;
+  background-image: url("images/arrow2.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  top:38%;
+  width:80px;
+  height:40px;
+  margin-left: 15px;
+}
+#header .sign-up:hover {
+  color: #9bf1ff;
+  background-color: #292f49;
+  border-color: #9bf1ff;
+}
+#header .page-scroll{
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+#header .page-scroll:hover{
+  color: #9bf1ff;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
