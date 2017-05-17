@@ -2,12 +2,9 @@
 
       $(document).ready(function () {
           
-      $(".bbjmenu").click(function() {
+      $(".bbjmenu2").click(function() {
         $(".bbjcontainer").css({display: 'block'});
       });
-});
-
-$(document).ready(function () {
 
       $(".croix").click(function() {
 
