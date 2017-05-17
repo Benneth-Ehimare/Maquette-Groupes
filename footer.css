@@ -88,6 +88,7 @@ footer {
     background-color: #242943;
     text-align: center;
     padding-top: 80px;
+    border-top: solid 1px #2B304A
 }
 
 #facebook,#in,#twitter,#git,#insta {
@@ -122,7 +123,4 @@ div.row.row1 {
     font-weight: lighter;
     font-size: 14px;
 }
-hr {
-    margin:0;
-    padding:0;
-}
+
