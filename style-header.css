@@ -10,7 +10,7 @@ header{
   border:solid;
 }
 /*** ---First part of the brand highlighted--- ***/
-.light{
+#header .light{
   color:#292f49;
   background-color:#ffffff;
   padding:5px;
@@ -20,62 +20,62 @@ header{
   font-weight: bold;
 }
 /*** ---Second part of the brand--- ***/
-span.simplon{
+#header span.simplon{
   color:#ffffff;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 2px;
   font-size: 12px;
 }
 /*** ---Navigation bar--- ***/
-nav{
+#header nav{
   background-color: #292f49;
 }
 /*** ---Title--- ***/
-h1{
+#header h1{
   margin-top: 120px;
   padding-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
-hr{
+#header hr{
     background-color: #eee;
     border: 0 none;
     color: #eee;
     height: 2px;
 }
 /*** ---Paragraph on top--- ***/
-h5{
+#header h5{
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   letter-spacing: 3px;
   font-size: 10px;
 }
 /*** ---Jumbotron properties--- ***/
-.jumbotron, .container h1{
+#header .jumbotron, .container h1{
   background-color:#292f49;
   color: #ffffff;
   width:70%;
   font-size: 40px;
 }
-.jumbo-left{
+#header .jumbo-left{
   width:50%;
 }
-.jumbo-right{
+#header .jumbo-right{
   width:50%;
 }
 /*** ---Menu button properties--- ***/
-.glyphicon,.glyphicon-align-justify, a{
+#header .glyphicon,.glyphicon-align-justify, a{
   color:white;
 }
-.nav,.navbar-nav li a:hover{
+#header .nav,.navbar-nav li a:hover{
   background-color: #292f49;
   color: #9bf1ff;
 }
-.nav,.navbar-nav li a:hover .glyphicon{
+#header .nav,.navbar-nav li a:hover .glyphicon{
   color: #9bf1ff;
 }
 /*** ---Sign up button properties--- ***/
-.sign-up{
+#header .sign-up{
   position:relative;
   border:solid 2px;
   border-color:#ffffff;
@@ -89,7 +89,7 @@ h5{
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
-.sign-up::after{
+#header .sign-up::after{
   content:"";
   position:absolute;
   vertical-align:middle;
@@ -101,7 +101,7 @@ h5{
   height:40px;
   margin-left: 60px;
 }
-.sign-up:hover::after{
+#header .sign-up:hover::after{
   content:"";
   position:absolute;
   vertical-align: middle;
@@ -113,17 +113,17 @@ h5{
   height:40px;
   margin-left: 60px;
 }
-.sign-up:hover {
+#header .sign-up:hover {
   color: #9bf1ff;
   background-color: #292f49;
   border-color: #9bf1ff;
 }
-.page-scroll{
+#header .page-scroll{
   letter-spacing: 2px;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
 }
-.page-scroll:hover{
+#header .page-scroll:hover{
   color: #9bf1ff;
   letter-spacing: 2px;
   font-size: 12px;
