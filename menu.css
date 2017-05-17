@@ -61,6 +61,11 @@ body {
   margin: 0;
 }
 
+.bbj-btn:active , .bbj-btn:focus {
+  background-color: inherit;
+  color:inherit;
+  border-color: rgba(255, 255, 255, 0.2);
+}
 
 .bbj-btn:hover {
   background-color: inherit;
