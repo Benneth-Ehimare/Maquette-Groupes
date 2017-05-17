@@ -1,7 +1,7 @@
     // Apparition menu
 
       $(document).ready(function () {
-      $(".bbjmenu2").click(function() {
+      $(".bbjmenu").click(function() {
         $(".bbjcontainer").css({display: 'block'});
       });
 });
