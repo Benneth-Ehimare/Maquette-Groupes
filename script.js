@@ -1,11 +1,15 @@
-/**
- * Created by audric on 16/05/17.
- */
-$(document).ready(function () {
+    // Apparition menu
 
-    $('.portfolio div div div').hover(function () {
-        $(this).css("background-color", "rgba(0,0,0,0.2)");
-    });
+      $(document).ready(function () {
 
+      $(".bbjmenu2").click(function() {
+        $(".bbjcontainer").css({display: 'block'});
+      $("body > *:not(.bbjcontainer)").css({filter: 'blur(5px)'});
+      });
 
+      $(".croix").click(function() {
+
+        $(".bbjcontainer").css({display: 'none'});
+        $("body > *:not(.bbjcontainer)").css({filter: 'none'});
+      });
 });
