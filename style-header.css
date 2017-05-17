@@ -71,7 +71,7 @@ header{
   background-color: #292f49;
   color: #9bf1ff;
 }
-#header .nav,.navbar-nav li a:hover .glyphicon{
+#header nav li a:hover .glyphicon{
   color: #9bf1ff;
 }
 /*** ---Sign up button properties--- ***/
@@ -81,10 +81,12 @@ header{
   border-color:#ffffff;
   border-radius: 0;
   background-color: #292f49;
-  padding-right: 55px;
-  padding-left: 25px;
+  padding-right: 45px;
+  /*padding-right: 55px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 10px;*/
+  Height:45px;
+  width:180px;
   letter-spacing: 2px;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
@@ -99,7 +101,7 @@ header{
   top:38%;
   width:80px;
   height:40px;
-  margin-left: 60px;
+  margin-left: 15px;
 }
 #header .sign-up:hover::after{
   content:"";
@@ -111,7 +113,7 @@ header{
   top:38%;
   width:80px;
   height:40px;
-  margin-left: 60px;
+  margin-left: 15px;
 }
 #header .sign-up:hover {
   color: #9bf1ff;
