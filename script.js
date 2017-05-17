@@ -1,5 +1,11 @@
     // Apparition menu
 
+      $(document).ready(function () {
+      $(".bbjmenu2").click(function() {
+        $(".bbjcontainer").css({display: 'block'});
+      });
+});
+
 $(document).ready(function () {
 
       $(".croix").click(function() {
@@ -8,11 +14,7 @@ $(document).ready(function () {
       });
 });
 
-      $(document).ready(function () {
-      $(".bbjmenu2").click(function() {
-        $(".bbjcontainer").css({display: 'block'});
-      });
-});
+
 /**
  * Created by audric on 16/05/17.
  */
