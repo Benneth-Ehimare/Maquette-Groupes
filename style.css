@@ -37,7 +37,7 @@ p.lorem {
     letter-spacing: 1px;
 }
 
-.btn.btn-lg {
+.rgj.rgj-lg {
     position: relative;
     margin-left: 15%;
     margin-top: 55px;
@@ -54,11 +54,11 @@ p.lorem {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
 }
-.btn.btn-lg:hover{
+.rgj.rgj-lg:hover{
     color: #9bf1ff;
     border: solid 2px #9bf1ff;
 }
-.btn.btn-lg::after{
+.rgj.rgj-lg::after{
     margin-left: 20px;
     content: '';
     position: absolute;
@@ -70,7 +70,7 @@ p.lorem {
     height: 40px;
     background-size: 30%;
 }
-.btn.btn-lg:hover::after{
+.rgj.rgj-lg:hover::after{
     content: '';
     margin-left:20px;
     position: absolute;
@@ -123,4 +123,3 @@ div.row.row1 {
     font-weight: lighter;
     font-size: 14px;
 }
-
