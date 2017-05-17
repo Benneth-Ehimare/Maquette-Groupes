@@ -90,7 +90,18 @@ footer {
     padding-top: 80px;
     border-top: solid 1px #2B304A;
 }
-
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  margin-right: 20px;
+}
+footer i {
+  text-align: center;
+}
+ul.row.row1 {
+  width: 45%;
+}
 #facebook,#in,#twitter,#git,#insta {
     color: #2a2f4a ;
     background-color: white;
@@ -101,19 +112,8 @@ footer {
     line-height: 40px;
     margin: auto;
 }
-.row1{
-    width: 40%;
-    margin-left: 15%;
-}
-div.row.row1 {
-  margin-left: 245px;
-}
-.col-md-1 {
 
-    margin: 0;
-    padding-right: 50px;
-    padding-left: 0;
-}
+
 .row2 {
     margin-top: 50px;
     margin-right: 56%;
