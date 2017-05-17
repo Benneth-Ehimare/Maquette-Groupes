@@ -12,9 +12,10 @@
     font-size: 25px;
 
 }
-.lorem {
+p.lorem {
     letter-spacing: 1px;
     font-size: 20px;
+    padding-left: 0px;
 
 }
 .jumbotron {
@@ -28,7 +29,7 @@
     border-bottom : solid white 3px;
     padding-bottom: 30px;
     color: white;
-    width: 15%;
+    width: 25%;
     margin-left: 15%;
     font-size: 45px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -102,6 +103,9 @@ footer {
 .row1{
     width: 40%;
     margin-left: 15%;
+}
+div.row.row1 {
+  margin-left: 245px;
 }
 .col-md-1 {
 
