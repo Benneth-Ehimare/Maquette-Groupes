@@ -1,116 +1,125 @@
+/**************************
+       ---HEADER---
+**************************/
 header{
-    background-color:#292f49;
-    border:solid;
+  background-color:#292f49;
+  border:solid;
 }
-span.simplon{
-    color:#ffffff;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
-    font-size: 12px;
+/*** ---First part of the brand highlighted--- ***/
+#header .light{
+  color:#292f49;
+  background-color:#ffffff;
+  padding:5px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
-nav{
-    background-color: #292f49;
+/*** ---Second part of the brand--- ***/
+#header span.simplon{
+  color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
 }
-hr{
+/*** ---Navigation bar--- ***/
+#header nav{
+  background-color: #292f49;
+}
+/*** ---Title--- ***/
+#header h1{
+  margin-top: 120px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+#header hr{
     background-color: #eee;
     border: 0 none;
     color: #eee;
     height: 2px;
 }
-h1{
-    margin-top: 120px;
-    padding-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+/*** ---Paragraph on top--- ***/
+#header h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 10px;
 }
-h5{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 3px;
-    font-size: 10px;
+/*** ---Jumbotron properties--- ***/
+#header .jumbotron, .container h1{
+  background-color:#292f49;
+  color: #ffffff;
+  width:70%;
+  font-size: 40px;
 }
-.jumbotron, .container h1{
-    background-color:#292f49;
-    color: #ffffff;
-    width:70%;
-    font-size: 40px;
+#header .jumbo-left{
+  width:50%;
 }
-.light{
-    color:#292f49;
-    background-color:#ffffff;
-    padding:5px;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+#header .jumbo-right{
+  width:50%;
 }
-.jumbo-left{
-    width:50%;
+/*** ---Menu button properties--- ***/
+#header .glyphicon,.glyphicon-align-justify, a{
+  color:white;
 }
-.jumbo-right{
-    width:50%;
+#header .nav,.navbar-nav li a:hover{
+  background-color: #292f49;
+  color: #9bf1ff;
 }
-.glyphicon,.glyphicon-align-justify, a{
-    color:white;
+#header .nav,.navbar-nav li a:hover .glyphicon{
+  color: #9bf1ff;
 }
-.sign-up{
-    position:relative;
-    border:solid 2px;
-    border-color:#ffffff;
-    border-radius: 0;
-    background-color: #292f49;
-    padding-right: 55px;
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    letter-spacing: 2px;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
+/*** ---Sign up button properties--- ***/
+#header .sign-up{
+  position:relative;
+  border:solid 2px;
+  border-color:#ffffff;
+  border-radius: 0;
+  background-color: #292f49;
+  padding-right: 55px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
-.sign-up::after{
-    content:"";
-    position:absolute;
-    vertical-align:middle;
-    background-image: url("images/arrow.png");
-    background-repeat:no-repeat;
-    background-size: 30%;
-    top:38%;
-    width:80px;
-    height:40px;
-    margin-left: 60px;
+#header .sign-up::after{
+  content:"";
+  position:absolute;
+  vertical-align:middle;
+  background-image: url("images/arrow.png");
+  background-repeat:no-repeat;
+  background-size: 30%;
+  top:38%;
+  width:80px;
+  height:40px;
 }
-.sign-up:hover::after{
-    content:"";
-    position:absolute;
-    vertical-align: middle;
-    background-image: url("images/arrow2.png");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    top:38%;
-    width:80px;
-    height:40px;
-    margin-left: 60px;
+#header .sign-up:hover::after{
+  content:"";
+  position:absolute;
+  vertical-align: middle;
+  background-image: url("images/arrow2.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  top:38%;
+  width:80px;
+  height:40px;
 }
-.sign-up:hover {
-    color: #9bf1ff;
-    background-color: #292f49;
-    border-color: #9bf1ff;
+#header .sign-up:hover {
+  color: #9bf1ff;
+  background-color: #292f49;
+  border-color: #9bf1ff;
 }
-.page-scroll{
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+#header .page-scroll{
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
 }
-.page-scroll:hover{
-    color: #9bf1ff;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
-}
-.nav,.navbar-nav li a:hover{
-    background-color: #292f49;
-    color: #9bf1ff;
-}
-.nav,.navbar-nav li a:hover .glyphicon{
-    color: #9bf1ff;
+#header .page-scroll:hover{
+  color: #9bf1ff;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
 }
