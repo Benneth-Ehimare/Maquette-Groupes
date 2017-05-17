@@ -1,6 +1,7 @@
     // Apparition menu
 
       $(document).ready(function () {
+          
       $(".bbjmenu").click(function() {
         $(".bbjcontainer").css({display: 'block'});
       });
@@ -14,16 +15,6 @@ $(document).ready(function () {
       });
 });
 
-
-/**
- * Created by audric on 16/05/17.
- */
-$(document).ready(function () {
-
-    // Hover portfolio
-    $('.portfolio div div div').hover(function () {
-        $(this).css("background-color", "rgba(0,0,0,0.2)");
-    });
 });
    
     
