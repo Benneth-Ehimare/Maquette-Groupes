@@ -9,9 +9,14 @@ $(document).ready(function () {
     });
 
     // Apparition menu
-    $(".croix").click(function() {
-        $(".bbjcontainer").animate({
-            opacity: '0'
-        });
-    });
+      $(".croix").click(function() {
+
+        $(".bbjcontainer").css({display: 'none'});
+      });
+
+      $(".bbjmenu2").click(function() {
+        $(".bbjcontainer").css({display: 'block'});
+      });
+
+      });
 });
