@@ -9,8 +9,9 @@
 }
 .portfolio{
     color: white;
-    background-color: transparent
+    background-color: transparent;
     padding: 0;
+    margin: 0;
 }
 .ligne{
     margin: 0;
