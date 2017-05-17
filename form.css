@@ -1,62 +1,62 @@
-body {
+.formulaire {
     background-color: #242943 ;
 }
-.cl1 {
+.formulaire .cl1 {
     border: 1px solid white;
     border-bottom: none;
     padding: 2vw 0vw 2vw 30px ;
     color: #ffffff ;
 }
-.form-control {
+.formulaire .form-control {
     background-color: #2B304A ;
     border:none;
 }
-#mail-top {
+.formulaire #mail-top {
     border-top: none;
 }
-a {
+.formulaire a {
     text-decoration: none;
     color: #ffffff;
 }
-label {
+.formulaire label {
 
     letter-spacing: 2px;
     color: #ffffff ;
 }
-.glyphicon {
+.formulaire .glyphicon {
     color: #242943;
     background-color: #ffffff ;
     border-radius: 90%;
     padding: 4px;
 }
-.content{
+.formulaire .content{
     margin: 0;
 }
-span {
+.formulaire span {
     margin-right: 20px;
 }
-p{
+.formulaire p{
     padding-left: 60px;
 }
-form{
+.formulaire form{
     font-size: 12px;
     padding: 4vw 2vw 0vw 10vw;
 }
-.btn{
+.formulaire .btn{
     margin-top: 1.5vw;
     border-radius: 0;
     letter-spacing: 2px;
     border: 2px solid #ffffff;
     font-size: 12px;
 }
-.btn1{
+.formulaire .btn1{
     color: #242943;
 }
-.btn2{
+.formulaire .btn2{
     margin-left: 1vw;
     color: #ffffff ;
     background-color: #242943;
 }
-.form-group{
+.formulaire .form-group{
     padding-top: 1vw;
 }
