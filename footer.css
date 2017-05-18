@@ -24,7 +24,8 @@ p.lorem {
 }
 
 .jumb h1 {
-    margin-top: 0;
+    margin-top: inherit;
+    padding-top: 40px;
     margin-bottom : 65px;
     border-bottom : solid white 3px;
     padding-bottom: 30px;
@@ -54,7 +55,7 @@ p.lorem {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
 }
-.rgj.rgj:hover{
+.rgj.rgj-lg:hover{
     color: #9bf1ff;
     border: solid 2px #9bf1ff;
 }
@@ -90,7 +91,18 @@ footer {
     padding-top: 80px;
     border-top: solid 1px #2B304A;
 }
-
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    margin-right: 20px;
+}
+footer i {
+    text-align: center;
+}
+ul.row.row1 {
+    width: 45%;
+}
 #facebook,#in,#twitter,#git,#insta {
     color: #2a2f4a ;
     background-color: white;
@@ -101,19 +113,8 @@ footer {
     line-height: 40px;
     margin: auto;
 }
-.row1{
-    width: 40%;
-    margin-left: 15%;
-}
-div.row.row1 {
-  margin-left: 245px;
-}
-.col-md-1 {
 
-    margin: 0;
-    padding-right: 50px;
-    padding-left: 0;
-}
+
 .row2 {
     margin-top: 50px;
     margin-right: 56%;
@@ -123,4 +124,3 @@ div.row.row1 {
     font-weight: lighter;
     font-size: 14px;
 }
-
